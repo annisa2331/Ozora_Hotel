@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#mmain-navigation {
+    background: #5a0d03;
+    padding: 10px;
+}
+
+#mmain-navigation ul {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#mmain-navigation li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#mmain-navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#mmain-navigation a.current {
+    background: #efc79f;
+    border-radius: 4px;
+}
+
+#group-1 {
+    background: url(IMG/Group_1/hotel-day-2.jpg);
+    height: 1232px;
+}
+
+#title h1{
+    color: #f39941;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+#main-title {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    text-align: center;
+}
+
+#group-2 {
+    background: url(IMG/Group_2/bg.png);
+    height: 1909px;
+}
+
+#group-2.swiper {
+    margin: auto;
+    width: 50%;
+}
